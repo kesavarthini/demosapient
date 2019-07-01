@@ -1,0 +1,127 @@
+    1  git --version
+    2  ls -all
+    3  git init
+    4  ls -all
+    5  git config --global user.name kesavarthini
+    6  git config --global ls
+    7  git config --global list
+    8  git config --global ls kesavarthini
+    9  git config --ls kesavarthini
+   10  git config --global --list
+   11  git config --global user.email kesavarthini.i@publicissapient.com
+   12  git config --global --list
+   13  git --versin
+   14  git --version
+   15  git init
+   16  git config --global user.name kesavarthini
+   17  git config --global user.email kesi@publicisgroupe.net
+   18  git config --global --list
+   19  touch a.txt
+   20  ls
+   21  git status
+   22  git add a.txt
+   23  git status
+   24  git -commit -m initial commit
+   25  git --commit -m initial commit
+   26  git commit -m initial commit
+   27  git commit -m "initial commit"
+   28  git status
+   29  touch b.txt
+   30  git add b.txt
+   31  git status
+   32* 
+   33  git status
+   34  git log
+   35  cd .git
+   36  ls
+   37  cd objects
+   38  ls
+   39  cd 3e
+   40  ls
+   41  cat 61e24481643b3e0b86ff42c80ccd0e822daea5
+   42  cd ..
+   43  cd objects
+   44  ls
+   45  cd f1
+   46  cat 22aa53c26f0a6b7c657c448f33a162c1aeebe3 
+   47  cd ..
+   48  cd ..
+   49  cd ..
+   50  ls
+   51  code .
+   52  code .
+   53  vi a.txt
+   54  git -status
+   55  git status
+   56  git add a.txt
+   57  git checkout -- a.txr
+   58  git checkout -- a.txt
+   59  vi a.txt
+   60  git status
+   61  vi b.txt
+   62  git checkout -- b.txt
+   63  git status
+   64  git reset HEAD a.txt
+   65  ls
+   66  git status
+   67  vi a.txt
+   68  git add a.txt
+   69  vi a.txt
+   70  git status
+   71  vi a.txt
+   72  git commit -am "changes done"
+   73  vi a.txt
+   74  vi c.txt
+   75  git add c.txt
+   76  git commit -m "c added"
+   77  vi c.txt
+   78  git checkout -- c.txt
+   79  vi c.txt
+   80  vi c.txt
+   81  git add c.txt
+   82  git reset HEAD c.txt
+   83  vi c.txt
+   84  git reset HEAD c.txt
+   85  vi c.txt
+   86* 
+   87  git reset HEAD c.txt
+   88  git status
+   89  git log --oneline
+   90  git checkout 5692fd2
+   91  git commit -m "one more
+"
+   92  git commit -m "one more"
+   93  git add c.txt
+   94  git log --oneline
+   95* 
+   96  git checkout 5692fd2
+   97  git log --oneline
+   98  ls
+   99  git log --oneline
+  100  git checkout master
+  101  git log --oneline
+  102  git remote add origin https://github.com/kesavarthini/demosapient.git
+  103  git push -u origin master
+  104  sshkeygen
+  105  cd .ssh
+  106  cd ..
+  107  ls
+  108  cd .ssh
+  109  cd .git
+  110  cd git-trial/
+  111  cd .ssh
+  112  cd .git
+  113  cd ..
+  114  cd .ssh
+  115  cd ~/.ssh
+  116  ls
+  117  notepad id_rsa.pub 
+  118* ccssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrhlosAtj2aQQ3ODe/Yz/ImhZ2RkHhfVE2LL+y2ZMzlXRLZKhdU/4+muQGWdSUoEJCD4W559dw5WBvWHCfnePywqZglbwAZ3ANS4pn5OQ4KOe0XFJgXWMQnICGDjVTIgnDRnwiepqjjcuUt+Uu7h509YjjP4VrTRIUVEocn/V6QFUD8iePgXlpjJMv/lqpa1Bd3X1tMMW/9z0fLl676yM918IALVMRbKUN76m2xL1bdasZO3E3HJw7ckbm24/XeZFSBHxY9HjmFKYmmrl1raDz6Wt3KTSFLn38F4iWWoUJ6DtPofiOcA/apFCVI9+QvvZI2+riyzq/J9lAW2kFOpOZ kesi@ll@WKWIN9124374d ..
+  119  cd ..
+  120  cd /c/git-trial
+  121  git push -u origin master
+  122  vi d.txt
+  123  git add d.txt
+  124  git commit -m "added d"
+  125  git push origin master
+  126  history > commands.txt
